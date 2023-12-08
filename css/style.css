@@ -279,3 +279,6 @@ h1,h2,h3,h4,h5,h6,p{
     transform: translateY(-15px);
   }
 }
+.custom-bg-color {
+    background-color: rgb(144, 174, 164);
+}
