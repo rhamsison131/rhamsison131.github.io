@@ -136,7 +136,7 @@ h1,h2,h3,h4,h5,h6,p{
   border: 2.4px solid #ffffff;
   color: #ffffff;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .about-img{
     margin-left: 20px;
     right: 0px;
@@ -278,4 +278,7 @@ h1,h2,h3,h4,h5,h6,p{
   100% {
     transform: translateY(-15px);
   }
+}
+.service {
+ backround-color: rgb(255, 164, 179);
 }
