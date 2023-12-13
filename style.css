@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6,p{
 .navbar-light .navbar-nav .nav-link {
   padding: 25px 10px;
   color: #343a40;
-  font-weight: 500;
+  font-weight: 600;
   outline: none;
 }
 
@@ -184,61 +184,9 @@ h1,h2,h3,h4,h5,h6,p{
   padding-right: 30px;
 }
 .service-box:hover{
-  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+  box-shadow: 0px 2px 13px rgba(27, 27, 27, 0.705); 
  
 }
-/* =================== Portfolio section ==================*/
-
-
-.portfolio-item .portfolio-btn {
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 50%;
-  border-radius: 4px;
-  opacity: 0;
-  transition: .5s;
-}
-
-.portfolio-item:hover .portfolio-btn {
-  opacity: 1;
-  width: calc(100% - 60px);
-  height: calc(100% - 60px);
-  top: 30px;
-  left: 30px;
-}
-
-/* ====================== Testimonial ================*/
-.testimonial-carousel .text-center{
-  background-color: #eaecf0d0;
-  border-radius: 20px;
-  margin: 20px;
-
-}
-.testimonial-carousel .text-center h4{
-
-}
-
-.testimonial-carousel .owl-dots {
-  margin-top: 25px;
-  text-align: center;
-}
-
-.testimonial-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
-}
-
-
 
 /* ========================== Contact Us ========================*/
 
