@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal creative portfolio",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --outfile=dist/js/bundle.js --format=iife --target=es2020",
+    "dev": "tsc --watch",
+    "start": "npx serve dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "esbuild": "^0.20.0"
+  }
+}
